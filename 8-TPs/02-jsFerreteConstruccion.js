@@ -35,8 +35,26 @@ function Circulo ()
     alambre = perimetro * 3;
 
     alert("Se deben comprar " + alambre + " metros");
+
 }
 function Materiales () 
 {
-	
+    let largo;
+    let ancho;
+    let area;
+    let alambre;
+    let cemento; //cosnt CEMENTO_X_METRO =2;
+    let cal;
+
+    largo = parseFloat(document.getElementById("txtIdLargo").value);
+    ancho = parseFloat(document.getElementById("txtIdAncho").value);
+
+    area = largo * ancho;
+    
+    cemento = area * 2;
+
+    cal = area * 3;
+
+    alert("Para un contrapiso de " +  area + "m2 necesito comprar " + cemento + " de cemento y " + cal + "bolsas de cal");
+
 }
