@@ -6,7 +6,7 @@ function mostrar()
 	let nombre;
 
 	let edad;
-    // le asigno a la caja de texto el valor de la var nombre
+    // le asigno a la variable nombre el valor de ingresado en la caja de texto
 	nombre = document.getElementById("txtIdNombre").value;
 
 	edad = document.getElementById("txtIdEdad").value;

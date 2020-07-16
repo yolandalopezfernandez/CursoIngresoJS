@@ -25,9 +25,9 @@ function restar()
 	
 	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);	
 	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
-
+    // javascript reconoce tipo de variable 
 	resultado = num1 - num2;
-
+    // alert(typeof); me muestra el tipo de variable
 	alert("la resta es  " + resultado);
 }
 
