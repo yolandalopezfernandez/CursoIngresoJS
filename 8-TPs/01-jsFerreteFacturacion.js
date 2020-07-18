@@ -14,7 +14,8 @@ function Sumar ()
     precio2 = parseFloat(document.getElementById("txtIdPrecioDos").value);
     precio3 = parseFloat(document.getElementById("txtIdPrecioTres").value);
 
-    suma = precio1 + precio2 + precio3;
+    suma = /*precio1 /*+ precio2 +*/ precio3;
+    suma = suma.toFixed(2);
 
     alert("la suma es $" + suma);
 
@@ -43,7 +44,7 @@ function PrecioFinal ()
     let precio3;
     let precioIva;
     let suma;
-
+    //capturo los datos de la caja de texto
     precio1 = parseFloat(document.getElementById("txtIdPrecioUno").value);
     precio2 = parseFloat(document.getElementById("txtIdPrecioDos").value);
     precio3 = parseFloat(document.getElementById("txtIdPrecioTres").value);

@@ -55,6 +55,6 @@ function Materiales ()
 
     cal = area * 3;
 
-    alert("Para un contrapiso de " +  area + "m2 necesito comprar " + cemento + " de cemento y " + cal + "bolsas de cal");
+    alert("Para un contrapiso de " +  area + " m2 necesito comprar " + cemento + " bolsas de cemento y " + cal + "bolsas de cal");
 
 }

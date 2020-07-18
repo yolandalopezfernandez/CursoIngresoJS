@@ -10,11 +10,13 @@ function mostrarAumento()
 	let descuento;
 
 	importe = parseFloat(document.getElementById("txtIdImporte").value);
+	//caprturo el dato de la caja de texto
 	
-	descuento = importe * 0.25; 
+	descuento = importe * 0.25;  // calculo el descuento
 	
-	resultado =  importe - descuento; 
+	resultado =  importe - descuento; //resultado 
 	
-	document.getElementById("txtIdResultado").value = resultado.toFixed(2); 
+	document.getElementById("txtIdResultado").value = resultado.toFixed(2);
+	//le asigno el valor de la variable resultado a la caja de texto de txtIdResultado 
 	
 }
