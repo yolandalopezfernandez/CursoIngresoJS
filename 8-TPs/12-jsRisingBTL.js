@@ -19,7 +19,7 @@ function ComenzarIngreso ()
 
 	 edad = parseInt(prompt("Ingrese su edad "));
 	 //crear un bucle
-	 while(!(edad >= 18 && edad <= 90)){
+	 while(!(edad >= 18 && edad <= 90)){ // edad<18||edad<90||isNAN(edad)
 		edad = parseInt(prompt("Edad invalida. Ingrese edad entre 18 y 90 años inclusive "));
 	 }
 	 document.getElementById("txtIdEdad").value = edad;
@@ -64,7 +64,7 @@ function ComenzarIngreso ()
 	 document.getElementById("txtIdSueldo").value = (` $ ${sueldoBruto}`); 
 
 	 legajo = parseInt(prompt("Ingrese su legajo"));
-	while(!(legajo >= 1 && legajo <= 9999)){
+	while(!(legajo >= 1000 && legajo <= 9999)){
 		legajo = parseInt(prompt("Invalido. Ingrese su legajo, numérico de 4 cifras, sin ceros a la izquierda"));
 	}
 	document.getElementById("txtIdLegajo").value = legajo;
@@ -85,4 +85,8 @@ function ComenzarIngreso ()
 	 }
 	 document.getElementById("txtIdNacionalidad").value = nacionalidad; 
 
+	 /*
+	 let x = "PEPE";
+	 x.toLowerCase();*/
+	
 }
